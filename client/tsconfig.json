@@ -1,5 +1,10 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@product/*": ["product/*"],
+      "@shopping_cart/*": ["shopping_cart/*"]
+    },
     "target": "es5",
     "lib": [
       "dom",

@@ -1,7 +1,12 @@
-import { VoidFunctionComponent as VFC } from "react";
+import {
+  ReactElement,
+  VFC
+} from "react";
 
-const Product: VFC = () => {
-  return <div>Product page</div>;
+import ProductDetailView from "@product/ui/views/ProductDetailView";
+
+const Product: VFC = (): ReactElement => {
+  return <ProductDetailView />;
 }
 
 export default Product;
