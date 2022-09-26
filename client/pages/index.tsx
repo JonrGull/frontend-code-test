@@ -1,4 +1,6 @@
-export default function Home() {
+import { VoidFunctionComponent as VFC } from "react";
+
+const Home: VFC<void> = () => {
   return (
     <main>
       <div className="home">
@@ -17,3 +19,5 @@ export default function Home() {
     </main>
   );
 }
+
+export default Home;
